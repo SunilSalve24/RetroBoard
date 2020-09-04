@@ -1,0 +1,12 @@
+<div id="container">
+    <h1 class="board-heading">
+      Retrospetive
+    </h1>
+
+    <div class="grid">
+      <ng-container *ngFor="let section of sectionList">
+        <app-card-section title={{section.title}} type={{section.type}}></app-card-section>
+      </ng-container>  
+    </div>
+
+</div>

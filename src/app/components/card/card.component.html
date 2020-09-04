@@ -1,0 +1,15 @@
+<div class="card">
+    <div *ngIf="isCardEdit; else cardView">
+        <textarea (blur)="addCardItem()" [(ngModel)]="card.body">
+            
+        </textarea>
+    </div>
+    <ng-template #cardView>
+        <div class="body-content">
+            {{card.body}}    
+        </div>
+        <div class="align-left">
+            +{{card.counter}}
+        </div>    
+    </ng-template>
+    </div>

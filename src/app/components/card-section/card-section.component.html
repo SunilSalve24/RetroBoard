@@ -1,0 +1,15 @@
+<div class="section">
+    <h3 class="section-title">
+      {{title}}
+      <button class="addStickyButton" title="Add Sticky" (click)="addCard()">
+          +
+      </button>
+    </h3>
+    <div class="card-list">
+        <app-card [card]=cardData *ngFor="let cardData of cardList"></app-card>
+        
+        <ng-container *ngIf="editCard">
+            <app-card [isCardEdit]='editCard' (addCardData)="saveCard($event)"></app-card>
+        </ng-container>
+    </div>   
+  </div>

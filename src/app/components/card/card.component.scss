@@ -1,0 +1,12 @@
+.card{
+    width: 150px;
+    display: inline-block;
+    height: 100px;
+    background-color: #ccc;
+    margin: 0 10px 10px 0;
+    padding:10px;
+
+    .body-content{
+        height: 80px;
+    }
+}

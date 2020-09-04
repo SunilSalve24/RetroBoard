@@ -1,0 +1,47 @@
+{
+    "wentwell": [
+        {
+            "body": "Release went well",
+            "counter": "1" 
+        },
+        {
+            "body": "Meetings are good",
+            "counter": "1" 
+        },
+        {
+            "body": "Kudos to developer",
+            "counter": "1" 
+        },
+        {
+            "body": "Kudos to developer",
+            "counter": "1" 
+        },
+        {
+            "body": "Kudos to developer",
+            "counter": "1" 
+        },
+        {
+            "body": "Kudos to developer",
+            "counter": "1" 
+        },
+        {
+            "body": "Kudos to developer",
+            "counter": "1" 
+        }
+    ],
+    "improvements": [
+        {
+            "body": "Planning should improve",
+            "counter": "1" 
+        }
+    ],
+    "startdoing": [
+        {
+            "body": "Unit Testing",
+            "counter": "1" 
+        }
+    ],
+    "actionitem": [
+  
+    ]
+}

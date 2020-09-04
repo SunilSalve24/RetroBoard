@@ -1,0 +1,28 @@
+@import './variable';
+
+#container{
+    background-color: $white;
+    border: $gray-2 solid 10px;
+    box-shadow: 2px 3px 2px $gray-1;
+    border-radius: 5px;
+    overflow: auto;
+    width: 95%;
+    min-height: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+.section-title {
+    margin: 0.2em 0;
+    font-weight: bold;
+}
+.addStickyButton {
+    color: $green-1;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0 5px;
+    background:none;
+}
+.align-left{
+    text-align: left;
+}
